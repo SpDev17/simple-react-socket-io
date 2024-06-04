@@ -13,6 +13,7 @@ COPY . .
 WORKDIR react-client
 RUN npm install
 
+
 WORKDIR /root
 RUN npm install
 
