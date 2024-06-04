@@ -7,7 +7,7 @@ function App() {
   const socket = useRef();
 
   useEffect(() => {
-    socket.current = io("ws://localhost:9013");
+    socket.current = io("ws://localhost:8000");
 
     socket.current.on("connnection", () => {
       console.log("connected to server");
