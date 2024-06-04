@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon server/index",
+    "start": "node server/index",
     "cb": "npm run build --prefix react-client",
     "client": "npm start --prefix react-client",
     "dev": "concurrently \"npm run start\" \"npm run client\""
